@@ -1,0 +1,47 @@
+* {
+    font-family: Garamond;
+    color: white;
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: forestgreen;
+    padding: 10px;
+}
+
+aside {
+    background-color: forestgreen;
+    height: 490px;
+    width: 25%;
+    font-size: 30px;
+}
+
+section {
+    background-color: chocolate;
+    height: 490px;
+    width: 50%;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+img:not(.gif) {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.gif {
+    max-height: 490px;
+    height: auto;
+    width: 100%;
+    max-width: 490px;
+}
+
+input {
+    color: black;
+}
