@@ -47,15 +47,15 @@
 
     <?php
         if ($_POST)
-            {
-                $conn = mysqli_connect("localhost", "root", "", "sklep");
-                $imie = $_POST["imie"];
-                $nazwisko = $_POST["nazwisko"];
-                $email = $_POST["email"];
-                $sql = "INSERT INTO zamowienia (imie, nazwisko, adres_email) VALUES ('$imie', '$nazwisko', '$email')";
-                mysqli_query($conn,$sql);
-                mysqli_close($conn);
-            }
+        {
+            $conn = mysqli_connect("localhost", "root", "", "sklep");
+            $imie = $_POST["imie"];
+            $nazwisko = $_POST["nazwisko"];
+            $email = $_POST["email"];
+            $sql = "INSERT INTO zamowienia (imie, nazwisko, adres_email) VALUES ('$imie', '$nazwisko', '$email')";
+            mysqli_query($conn,$sql);
+            mysqli_close($conn);
+        }
     ?>
 </body>
 
